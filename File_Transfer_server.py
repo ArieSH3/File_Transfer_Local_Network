@@ -6,7 +6,7 @@ import os
 
 
 PORT = 2210
-SERVER_ADDRESS = '127.0.0.1'
+SERVER_ADDRESS = '127.0.0.1' # '192.168.0.19'
 
 buffer_size = 4096 # Receive 4096 bytes each time
 SEPARATOR = '<SEP>'
@@ -59,4 +59,3 @@ client_socket.close()
 print('Disconnected')
 
 server_socket.close()
-
